@@ -48,8 +48,8 @@ elif [ "`dbus get frpc_cron_hour_min`"x != ""x ] && [ "`dbus get frpc_cron_time`
 fi
 dbus set softcenter_module_frpc_install=1
 dbus set softcenter_module_frpc_name=${MODULE}
-dbus set softcenter_module_frpc_title="Frpc内网穿透"
-dbus set softcenter_module_frpc_description="内网穿透利器，谁用谁知道。"
+dbus set softcenter_module_frpc_title="Frp 内网穿透"
+dbus set softcenter_module_frpc_description="Frpc 0.17.0，Sakura Frp 定制版"
 dbus set softcenter_module_frpc_version="${VERSION}"
 dbus set ${MODULE}_version="${VERSION}"
 rm -fr /tmp/frp* >/dev/null 2>&1
